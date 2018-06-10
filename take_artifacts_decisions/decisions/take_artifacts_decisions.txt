@@ -1,0 +1,59 @@
+targeted_decisions = {
+	
+	take_artifacts_pact_from_prison = {
+		
+		filter = [home_court] 
+		ai_target_filter = [home_court]
+		
+		third_party_filter = artifacts
+		third_party = ROOT
+		
+		potential = {
+			is_within_diplo_range = FROM
+				ROOT = {
+					prisoner = yes
+					is_landed = no
+					num_of_artifacts = 1
+				}			
+		}
+		third_party_potential = {
+			FROMFROM = {
+				show_scope_change = no
+				#NOT = {
+					#custom_tooltip = {
+						#text = steal_artifact_allow3 has_artifact_flag = ingredient 
+					#} 
+				#}
+			}
+		}
+		allow = {
+			prisoner = yes
+			is_landed = no
+				ROOT = {
+					num_of_artifacts = 1
+				}				
+		}
+			
+		effect = {
+			opinion = {
+				who = FROM
+				modifier = take_artifacts
+				years = 20
+			}
+			FROMFROM = {
+				set_artifact_flag = targeted
+			}
+			FROM = {
+				character_event = {
+					id = Tma.100
+				}
+				add_character_modifier = { 
+					name = take_other_people_relic 
+					duration = {years = 10}
+				}
+			}
+		}
+	}
+
+}
+	

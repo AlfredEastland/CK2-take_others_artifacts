@@ -1,0 +1,40 @@
+namespace = Tma
+
+character_event = {
+    id = Tma.101
+    desc = EVTDESC_Tma_101
+    picture = GFX_evt_relic_box
+    border = GFX_event_normal_frame_war
+	#hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		FROM = {
+			save_event_target_as = target_character
+			random_artifact = {
+				limit = { has_artifact_flag = targeted }
+				save_event_target_as = target_artifact
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_Tma_101
+		event_target:target_artifact = {
+			transfer_artifact = {
+				from = event_target:target_character
+				to = ROOT
+			}
+		}
+		FROM = {
+			prisoner = no
+		}
+		#hidden_tooltip = {
+			#remove_character_modifier = active_heist
+			#event_target:target_artifact = {
+				#clr_artifact_flag = targeted
+			#}
+			#event_target:target_character = { character_event = { id = aao.011 days = 10 } }
+		#}
+		
+	}
+}

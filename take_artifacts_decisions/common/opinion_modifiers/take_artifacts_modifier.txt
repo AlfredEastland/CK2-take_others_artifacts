@@ -1,0 +1,8 @@
+take_artifacts = {
+	opinion = -50
+	months = 240
+}
+send_artifacts = {
+	opinion = 50
+	months = 240
+}

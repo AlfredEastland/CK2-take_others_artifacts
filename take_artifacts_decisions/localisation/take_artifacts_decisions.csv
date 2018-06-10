@@ -1,0 +1,18 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+take_artifacts_pact_from_prison;Take the artifact from prisonar;;;;;;;;;;x
+take_artifacts_pact_from_prison_desc;It seems the prisoner in your prison has some artifacts that he doesn't deserve. It is time to find a new owner for them.;;;;;;;;;;x
+take_artifacts_pact_from_landed_man;Asked the vassal to hand over the artifact;;;;;;;;;;x
+take_artifacts_pact_from_landed_man_desc;Demand the vassal to hand over an artifact as a ransom to release him from prison;;;;;;;;;;x
+take_artifacts_pact_from_foreign_landed_man;Asked the captive to hand over the artifact;;;;;;;;;;x
+take_artifacts_pact_from_foreign_landed_man_desc;He is already captured by you army now.  Compared to money, something in his hand is what you really yearn for.;;;;;;;;;;x
+take_artifacts;Took my artifacts;;;;;;;;;;x
+take_other_people_relic;took the artifacts from others;;;;;;;;;;x
+take_vassal_relic;took the artifacts from your vassal;;;;;;;;;;x
+EVTDESC_Tma_100;Your guards brought back the artifact from the prisoner's house. You opened the chest excitedly;;;;;;;;;;x
+EVTOPTA_Tma_100;It's my now! All of them!;;;;;;;;;;x
+EVTDESC_Tma_101;The relatives of the your vassals hand over the treasure as they promised. You opened the chest excitedly;;;;;;;;;;x
+EVTOPTA_Tma_101;Such a treasures, undoubtedly should belongs to the one who deserved!;;;;;;;;;;x
+EVTDESC_Tma_102;The relatives of the your captive offer the treasure as they promised.You opened the chest excitedly;;;;;;;;;;x
+EVTOPTA_Tma_102;Such a treasures, undoubtedly should belongs to the one who deserved!;;;;;;;;;;x
+
+

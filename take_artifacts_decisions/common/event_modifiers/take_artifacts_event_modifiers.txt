@@ -1,0 +1,9 @@
+take_other_people_relic = {
+	icon = 34
+	general_opinion = -5
+}
+take_vassal_relic = {
+	icon = 34
+	general_opinion = -10
+}
+
